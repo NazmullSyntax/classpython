@@ -34,20 +34,37 @@
 
 # # lets begin number 4::::::::
 # 4. Largest of three numbers: use nested if to find the maximum of three.
-num1 = float(input("enter first number"))
-num2 = float(input("enter second number"))
-num3 = float(input("enter third number"))
-if num1 >= num2:
-    if num1 >= num3:
-        largest = num1
+# num1 = float(input("enter first number"))
+# num2 = float(input("enter second number"))
+# num3 = float(input("enter third number"))
+# if num1 >= num2:
+#     if num1 >= num3:
+#         largest = num1
+#     else:
+#         largest = num3
+# else:
+#     if num2 >= num3:
+#         largest = num2
+#     else:
+#         largest = num3
+# print("the largest value is = ",largest)
+    #   5. Smallest of three numbers: similar, but find minimum.
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+num3 = float(input("Enter third number: "))
+
+if num1 <= num2:
+    if num1 <= num3:
+        smallest = num1
     else:
-        largest = num3
+        smallest = num3
 else:
-    if num2 >= num3:
-        largest = num2
+    if num2 <= num3:
+        smallest = num2
     else:
-        largest = num3
-print("the largest value is = ",largest)
+        smallest = num3
+
+print("The smallest number is:", smallest)
 
 
 
