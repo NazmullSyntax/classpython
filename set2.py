@@ -102,6 +102,18 @@ if num % 5 == 0 and num % 11 == 0:
 else:
     print("Not divisible")
 
+    year = int(input("Enter a year: "))
+if year % 4 == 0:
+    if year % 100 == 0:
+        if year % 400 == 0:
+            print("Leap year")
+        else:
+            print("Not a leap year")
+    else:
+        print("Leap year")
+else:
+    print("Not a leap year")
+
 
 
 
