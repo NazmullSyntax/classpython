@@ -79,13 +79,12 @@
 # # print("Sum of digits =", total)
 
 # see another solution for 10. Find sum of digits in a number
-n = len(input("enter digits: "))
+n = (input("enter digits: "))
 total = 0
-for i in range(1, n ):
-    
-    total += n
-
+for digit in n:
+    total += int(digit)
 print("Sum of digits =", total)
+
 
 
 
