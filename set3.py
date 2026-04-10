@@ -46,3 +46,12 @@ for i in range(2, n + 1, 2):
 
 print("Sum of even numbers =", total)
 
+# 7. Print sum of odd numbers from 1 to N.
+n = int(input("Enter a number: "))
+total = 0
+for i in range(1, n + 1, 2):
+    total += i
+
+print("Sum of odd numbers =", total)
+
+
